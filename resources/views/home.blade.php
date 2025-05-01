@@ -8,7 +8,7 @@
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen">
     <nav class="text-center space-y-4">
-        <h1 class="text-3xl font-bold">Hello World</h1>
+        <h1 class="text-3xl font-bold">{{$greetings}}</h1>
         <a href="{{ route('home') }}" class="block text-xl text-blue-600 hover:underline">Home</a>
         <a href="{{ route('about') }}" class="block text-xl text-blue-600 hover:underline">About Us</a>
         <a href="{{ route('contacts') }}" class="block text-xl text-blue-600 hover:underline">Contatti</a>
